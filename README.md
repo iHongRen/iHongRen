@@ -1,16 +1,39 @@
-## Hi there 👋
+<style>
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
 
-<!--
-**iHongRen/iHongRen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  .image-wrapper img {
+    width: 100%;
+  }
 
-Here are some ideas to get you started:
+  @media (min-width: 768px) {
+    .image-container {
+      flex-direction: row;
+    }
+    .image-wrapper img {
+      width: auto;
+      height: 300px;
+      object-fit: contain;
+    }
+  }
+</style>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div class="image-container">
+  <div class="image-wrapper">
+    <img 
+      src="https://github-readme-stats.vercel.app/api?username=iHongRen&show_icons=true&theme=ambient_gradient" 
+      alt="GitHub Stats" 
+    >
+  </div>
+  <div class="image-wrapper">
+    <img 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=iHongRen&layout=compact" 
+      alt="Top Languages" 
+    >
+  </div>
+</div>
+
